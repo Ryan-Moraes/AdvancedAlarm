@@ -86,7 +86,7 @@ public class AdvancedTimer {
             leitor.close();
 
         } catch (Exception e) {
-            System.out.println("Erro lendo o arquivo, verifica ai");
+            System.out.println("Erro lendo o arquivo, verifique a formatação.");
             e.printStackTrace();
             return;
         }
@@ -100,7 +100,7 @@ public class AdvancedTimer {
             verificacoes++;
 
             if (verificacoes >= 50000) {
-                System.out.println("Desligar rapazeada, deu por hoje");
+                System.out.println("Desligando...");
                 break;
             }
 
